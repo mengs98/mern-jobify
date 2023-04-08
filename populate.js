@@ -3,8 +3,8 @@ import { readFile } from 'fs/promises';
 import dotenv from 'dotenv';
 dotenv.config();
 
-import connectDB from './db/connect.js';
-import Job from './models/Job.js';
+import connectDB from './server/db/connect.js';
+import Job from './server/models/Job.js';
 
 const start = async () => {
   try {
